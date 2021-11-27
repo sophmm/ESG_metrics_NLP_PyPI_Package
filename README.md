@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### ESGmetric_from_PDF 
 
 This package provides a proof-of-concept to show to extract specific ESG metrics (e.g. auditor name, tenure and fees) from PDF files using Natural Language Processing, to improve ESG scoring. 
@@ -7,3 +8,6 @@ The package is freely available on PyPi here:
 
 Possible improvements to the code are to differentiate between the audit and non-audit fees, extract values from tables or add sentiment analysis, for example to explore the integrity of the board members. 
 
+=======
+### This is a draft - the refactoring of this code into OOP/classes is ongoing.
+>>>>>>> bf5382e6836401551feb362d1aafd8bc0913fdee
