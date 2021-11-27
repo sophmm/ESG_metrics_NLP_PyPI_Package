@@ -1,3 +1,5 @@
+#Create patterns for the entity recognizer using Matcher (note entities can't overlap)
+
 patterns = [ [{'TEXT':'KPMG'}],
              [{'TEXT':'PricewaterhouseCoopers'}],
              [{'TEXT':'Ernst'},{'IS_PUNCT':True},{'TEXT':'Young'}],
