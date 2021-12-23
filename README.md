@@ -41,18 +41,18 @@ an accuracy of at least 78% (and f-score at least 0.86).
 The data is composed of a series of annual reports (PDFs) from ~80 international companies,
 e.g. Apple, Microsoft, Barclays, etc. 
 
-1. We split the entire text up into words and sentences and searched for specific key phrases 
+1. Split the entire text up into words and sentences and searched for specific key phrases 
 e.g. auditor, or external auditor, using a two-step filtering approach for improved accuracy.
 The model below worked best with fewer sentences, so the 2 stage filtering was a quick and 
 efficient way to narrow down to the right section we are interested in, instead of 
 returning individual pages or sections. The low-level details e.g. capitalisation, 
 punctuation, currency and stop words do matter so they were maintained in the text. 
 
-2. We trained a custom Named Entity Recognition (NER) model to tag entities 
+2. Train a custom Named Entity Recognition (NER) model to tag entities 
 i.e. label specific words. The same idea can be used to train a different model 
 to select anything (words/ values) you’re interested in from the text. 
 
-3. Then we post-processed the output which further narrows down the list of names/ values
+3. Post-process the output which further narrows down the list of names/ values
 i.e. distinguish between present and past auditors.
 
 4. The end result is a binary classification to distinguish whether the metric is 
