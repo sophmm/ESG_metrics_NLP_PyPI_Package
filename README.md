@@ -32,7 +32,7 @@ We focused on 3 specific governance metrics:
 3. Audit and non-audit Fees paid to the Auditor
 
 Our objective approach provided a proof-of-concept for future metrics with
-an accuracy of at least 78% (and f-score at least 0.86)
+an accuracy of at least 78% (and f-score at least 0.86).
 
 
 <a name="objectives"></a>
@@ -52,7 +52,7 @@ punctuation, currency and stop words do matter so they were maintained in the te
 i.e. label specific words. The same idea can be used to train a different model 
 to select anything (words/ values) you’re interested in from the text. 
 
-3 Then we post-processed the output which further narrows down the list of names/ values
+3. Then we post-processed the output which further narrows down the list of names/ values
 i.e. distinguish between present and past auditors.
 
 4. The end result is a binary classification to distinguish whether the metric is 
