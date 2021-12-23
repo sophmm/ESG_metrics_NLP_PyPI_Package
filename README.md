@@ -73,7 +73,7 @@ The package is freely available on PyPi here: https://pypi.org/project/ESGmetric
 
  `$ source ESGvenv/bin/activate`
 
- `$ pip install ESGmetric_from_PDF
+ `$ pip install ESGmetric_from_PDF`
 
 <a name="authors"></a>
 ## Authors
