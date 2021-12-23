@@ -13,11 +13,8 @@ or it can be adapted to use your own training data to train the model on other d
 2. [Objectives](#objectives)
 3. [Getting Started](#getting_started)
     1. [Create Virtual Environment](#env)
-4. [File Structure](#files)
-5. [Discussion](#discussion)
-    1. [Improvements](#improvements)
-6. [Authors](#authors)
-7. [License](#license)
+4. [Authors](#authors)
+5. [License](#license)
 
 <a name="introduction"></a>
 ## Introduction
