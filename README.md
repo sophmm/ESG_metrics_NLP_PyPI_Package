@@ -12,7 +12,6 @@ or it can be adapted to use your own training data to train the model on other d
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
 3. [Getting Started](#getting_started)
-    1. [Create Virtual Environment](#env)
 4. [Authors](#authors)
 5. [License](#license)
 
@@ -69,9 +68,6 @@ TF-IDF or bag of words approach.
 ## Getting Started
 
 The package is freely available on PyPi here: https://pypi.org/project/ESGmetric-from-PDF/0.1/
-
-<a name="env"></a>
-### Create Virtual Environment (Linux) and install package
 
  `$ python3 -m venv ESGvenv`
 
