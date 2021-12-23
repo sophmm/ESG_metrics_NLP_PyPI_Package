@@ -1,5 +1,5 @@
 <
-### ESGmetric_from_PDF
+# ESGmetric_from_PDF
 
 This package provides a proof-of-concept to show to extract specific sustainable investing Environmental, 
 Societal and Governance (ESG) metrics from PDF files using Natural Language 
